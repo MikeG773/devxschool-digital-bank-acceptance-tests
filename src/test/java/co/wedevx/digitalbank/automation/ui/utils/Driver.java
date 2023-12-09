@@ -64,7 +64,7 @@ public class Driver {
                     options.addArguments("--start-maximized");
                     options.addArguments("--headless");
 
-                    System.setProperty("webdriver.chrome.driver", "/Users/mikeguerrero/Downloads/chromedriver-mac-x64/chromedriver");
+                  //just comment out  System.setProperty("webdriver.chrome.driver", "/Users/mikeguerrero/Downloads/chromedriver-mac-x64/chromedriver");
 
                     driver = new ChromeDriver(options);
 
