@@ -8,6 +8,6 @@ import static io.cucumber.junit.platform.engine.Constants.GLUE_PROPERTY_NAME;
 @IncludeEngines("cucumber")
 @SelectClasspathResource("ui/features")
 @ConfigurationParameter(key=GLUE_PROPERTY_NAME, value="co.wedevx.digitalbank.automation.ui.steps")
-@IncludeTags("Test") // do we need this?? might need to uncomment this like askar
+//@IncludeTags("Test") // do we need this?? might need to uncomment this like askar
 public class UiRegressionRunner {
 }
