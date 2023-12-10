@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="8" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="17" time="88.467">
-<testcase classname="Digital Bank Registration Page" name="Positive Case. As a user, I want to successfully create Digital Bank account" time="16.122">
+<testsuite errors="0" failures="8" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="17" time="97.455">
+<testcase classname="Digital Bank Registration Page" name="Positive Case. As a user, I want to successfully create Digital Bank account" time="12.473">
 <system-out><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
@@ -8,63 +8,63 @@ Then User should be displayed with the message  "Success Registration Successful
 Then the following user info should be saved in the db......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data" time="5.56">
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data" time="4.658">
 <system-out><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
 Then the User should see the "title" required field error message "Please select an item in the list.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 2" time="3.823">
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 2" time="3.806">
 <system-out><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
 Then the User should see the "firstName" required field error message "Please fill out this field.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 3" time="3.689">
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 3" time="4.149">
 <system-out><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
 Then the User should see the "lastName" required field error message "Please fill out this field.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 4" time="3.642">
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 4" time="4.787">
 <system-out><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
 Then the User should see the "gender" required field error message "Please select one of these options.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 5" time="3.839">
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 5" time="3.696">
 <system-out><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
 Then the User should see the "dob" required field error message "Please fill out this field.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 6" time="3.707">
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 6" time="5.275">
 <system-out><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
 Then the User should see the "ssn" required field error message "Please fill out this field.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 7" time="4.046">
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 7" time="4.585">
 <system-out><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
 Then the User should see the "email" required field error message "Please fill out this field.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 8" time="3.793">
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 8" time="4.068">
 <system-out><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
 Then the User should see the "password" required field error message "Please fill out this field.".passed
 ]]></system-out>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 9" time="4.169">
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 9" time="5.195">
 <failure message="the error message of required address field mismatch ==&gt; expected: &lt;Please fill out this field.&gt; but was: &lt;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
@@ -80,7 +80,7 @@ org.opentest4j.AssertionFailedError: the error message of required address field
 	at ✽.the User should see the "address" required field error message "Please fill out this field."(classpath:ui/features/LoginAndRegistration/Registration.feature:26)
 ]]></failure>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 10" time="4.204">
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 10" time="5.101">
 <failure message="the error message of required locality field mismatch ==&gt; expected: &lt;Please fill out this field.&gt; but was: &lt;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
@@ -96,7 +96,7 @@ org.opentest4j.AssertionFailedError: the error message of required locality fiel
 	at ✽.the User should see the "locality" required field error message "Please fill out this field."(classpath:ui/features/LoginAndRegistration/Registration.feature:26)
 ]]></failure>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 11" time="4.767">
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 11" time="4.468">
 <failure message="the error message of required region field mismatch ==&gt; expected: &lt;Please fill out this field.&gt; but was: &lt;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
@@ -112,7 +112,7 @@ org.opentest4j.AssertionFailedError: the error message of required region field 
 	at ✽.the User should see the "region" required field error message "Please fill out this field."(classpath:ui/features/LoginAndRegistration/Registration.feature:26)
 ]]></failure>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 12" time="4.504">
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 12" time="4.659">
 <failure message="the error message of required postalCode field mismatch ==&gt; expected: &lt;Please fill out this field.&gt; but was: &lt;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
@@ -128,7 +128,7 @@ org.opentest4j.AssertionFailedError: the error message of required postalCode fi
 	at ✽.the User should see the "postalCode" required field error message "Please fill out this field."(classpath:ui/features/LoginAndRegistration/Registration.feature:26)
 ]]></failure>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 13" time="4.039">
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 13" time="4.333">
 <failure message="the error message of required country field mismatch ==&gt; expected: &lt;Please fill out this field.&gt; but was: &lt;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
@@ -144,7 +144,7 @@ org.opentest4j.AssertionFailedError: the error message of required country field
 	at ✽.the User should see the "country" required field error message "Please fill out this field."(classpath:ui/features/LoginAndRegistration/Registration.feature:26)
 ]]></failure>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 14" time="4.005">
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 14" time="4.306">
 <failure message="the error message of required homePhone field mismatch ==&gt; expected: &lt;Please fill out this field.&gt; but was: &lt;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
@@ -160,8 +160,8 @@ org.opentest4j.AssertionFailedError: the error message of required homePhone fie
 	at ✽.the User should see the "homePhone" required field error message "Please fill out this field."(classpath:ui/features/LoginAndRegistration/Registration.feature:26)
 ]]></failure>
 </testcase>
-<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 15" time="9.201">
-<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#agree\-terms&quot;}&#10;  (Session info: headless chrome=119.0.6045.199)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mikes-MBP.attlocal.net', ip: '2600:1700:e1a0:2ac0:0:0:0:28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_241'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/z4/splffpjn0h9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d63030b230af4fc452a531494054bf81&#10;*** Element info: {Using=id, value=agree-terms}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
+<testcase classname="Digital Bank Registration Page" name="Negative Test Cases. As a Digital Bank Admin I want to make sure users can not register without providing all valid data 15" time="9.845">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#agree\-terms&quot;}&#10;  (Session info: headless chrome=119.0.6045.199)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mikes-MBP.attlocal.net', ip: '2600:1700:e1a0:2ac0:0:0:0:28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_241'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/z4/splffpjn0h9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50628}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1606fb23202793b8a3169e7f00504b1d&#10;*** Element info: {Using=id, value=agree-terms}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given The user with "jack@test.co" is not in DB.............................passed
 And User navigates to Digital Bank signup page..............................passed
 When User creates account with following fields.............................passed
 Then the User should see the "termsCheckMark" required field error message "Please check this box if you want to proceed.".failed
@@ -173,8 +173,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Mikes-MBP.attlocal.net', ip: '2600:1700:e1a0:2ac0:0:0:0:28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_241'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/z4/splffpjn0h9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49895}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d63030b230af4fc452a531494054bf81
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/z4/splffpjn0h9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50628}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1606fb23202793b8a3169e7f00504b1d
 *** Element info: {Using=id, value=agree-terms}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -198,20 +198,41 @@ Session ID: d63030b230af4fc452a531494054bf81
 	at ✽.the User should see the "termsCheckMark" required field error message "Please check this box if you want to proceed."(classpath:ui/features/LoginAndRegistration/Registration.feature:26)
 ]]></failure>
 </testcase>
-<testcase classname="Creating a new checking account" name="Create a standard individual checking account" time="4.697">
-<failure message="new Checking Button didn't take to the http://mikeguerrero.mydevx.com/bank/account/checking-add ==&gt; expected: &lt;http://mikeguerrero.mydevx.com/bank/account/checking-add&gt; but was: &lt;https://dbank-qa.wedevx.co/bank/account/checking-add&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[Given the user logged in as "mikeguerrero42912@yahoo.com" "Boo42912.".......passed
+<testcase classname="Creating a new checking account" name="Create a standard individual checking account" time="11.596">
+<failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#checking\-menu&quot;}&#10;  (Session info: headless chrome=119.0.6045.199)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Mikes-MBP.attlocal.net', ip: '2600:1700:e1a0:2ac0:0:0:0:28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_241'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/z4/splffpjn0h9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50628}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1606fb23202793b8a3169e7f00504b1d&#10;*** Element info: {Using=id, value=checking-menu}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given the user logged in as "mikeguerrero42912@yahoo.com" "Boo42912.".......passed
 When the user creates a new checking account with the following data........failed
 Then the user should see the green "Successfully created new Standard Checking account named Elon Musk Second Checking" message.skipped
 And the user should see newly added account card............................skipped
 And the user should see the following transactions..........................skipped
 
 StackTrace:
-org.opentest4j.AssertionFailedError: new Checking Button didn't take to the http://mikeguerrero.mydevx.com/bank/account/checking-add ==> expected: <http://mikeguerrero.mydevx.com/bank/account/checking-add> but was: <https://dbank-qa.wedevx.co/bank/account/checking-add>
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1152)
-	at co.wedevx.digitalbank.automation.ui.pages.CreateCheckingPage.createNewChecking(CreateCheckingPage.java:54)
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#checking\-menu"}
+  (Session info: headless chrome=119.0.6045.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Mikes-MBP.attlocal.net', ip: '2600:1700:e1a0:2ac0:0:0:0:28%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.199, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: /var/folders/z4/splffpjn0h9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50628}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1606fb23202793b8a3169e7f00504b1d
+*** Element info: {Using=id, value=checking-menu}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at co.wedevx.digitalbank.automation.ui.pages.CreateCheckingPage.createNewChecking(CreateCheckingPage.java:49)
 	at co.wedevx.digitalbank.automation.ui.steps.CheckingAccountSteps.the_user_creates_a_new_checking_account_with_the_following_data(CheckingAccountSteps.java:40)
 	at ✽.the user creates a new checking account with the following data(classpath:ui/features/checking/NewChecking.feature:6)
 ]]></failure>
